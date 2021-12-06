@@ -61,7 +61,6 @@
     display: none;
     margin-top: 0;
     padding: 0;
-    width: 200px;
   }
   .nav_mobile li {
     display: block;
@@ -69,10 +68,16 @@
     margin: 0;
     padding: 10px;
     list-style: none;
+    font-family: Karla;
+  }
+  .nav_mobile li a {
+    text-decoration: none;
+    color: white;
   }
   .nav_mobile li:hover {
     -webkit-filter: brightness(110%);
             filter: brightness(110%);
+    font-family: Karla;
   }
   .banner {
     overflow: hidden;
