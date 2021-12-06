@@ -16,7 +16,7 @@
     <!--Navigation bar -->
     <header>
         <nav class="nav">
-            <a href="#"><img class="nav_logo" src="./resources/vectors/" alt="Logo El Centro que nos Une"></a>
+            <a href="#"><img class="nav_logo" src="./resources/vectors/logo.svg" alt="Logo El Centro que nos Une"></a>
             <ul class="nav_list">
                 <li><a href="#">¿Quiénes somos?</a></li>
                 <li><a href="#">Alumbrado</a></li>
@@ -27,48 +27,131 @@
     </header>
 
     <!-- Banner static of poster -->
-    <div>
-        <img>
-        <img>
-        <img>
-        <img>
-        <img>
-        <img>
-        <div>
-            <h3></h3>
-            <p></p>
+    <div class="banner">
+        <picture>
+            <source media="{min-width : 428px}" srcset="./resources/vectors/waves_small.svg"/>
+            <img class="banner__waves" src="./resources/vectors/waves.svg" alt="Fondo de ondas">
+        </picture>
+        <picture>
+            <source media="{min-width : 428px}" srcset="./resources/vectors/silloute_small.svg"/>
+            <img class="banner__silloute" src="./resources/vectors/silloute.svg" alt="Silueta popular">
+        </picture>
+        <picture>
+            <source media="{min-width : 428px}" srcset="./resources/vectors/city_small.svg"/>
+            <img class="banner__city" src="./resources/vectors/city_big.svg" alt="Silueta de la ciudad de cali">
+        </picture>
+        <picture>
+            <source media="{min-width : 428px}" srcset="./resources/vectors/naming_small.svg"/>
+            <img class="banner__naming" src="./resources/vectors/naming_big.svg" alt="Alumbrado en el Centro de Cali">
+        </picture>
+        <picture>
+            <source media="{min-width : 428px}" srcset="./resources/icons/starSmall.svg"/>
+            <img class="banner__star" src="./resources/icons/starBig.svg" alt="Estrella alumbrado">
+        </picture>
+        <div class="banner__tittle">
+            <h3 class="banner__tittle__principal">DESDE EL 6 DE DICIEMBRE A LAS <br> 6:00 PM  ENTRADA LIBRE</h3>
+            <p class="banner__tittle__copy">Consulta nuestra programación, todo el mes <br>tendremos eventos para ti</p>
         </div>
-        <img>
+        <picture>
+            <source media="{min-width : 428px}" srcset="./resources/vectors/cloud_small.svg"/>
+            <img class="banner__cloud" src="./resources/vectors/cloud_big.svg" alt="Nube blanca del Centro de Cali">
+        </picture>
     </div>
 
     <!-- Who we are? -->
-    <div>
-        <div></div>
-        <div></div>
+    <div class="aboutus">
+        <div class="aboutus__simbol">
+            <picture>
+                <source media="{min-width : 428px}" srcset="./resources/vectors/cloudinverse_small.svg"/>
+                <img class="aboutus__simbol__inverse" src="./resources/vectors/cloudinverse_big.svg" alt="Nube fucsia del Centro de Cali">
+            </picture>
+            <h3 class="aboutus__simbol__tittle">¿Quiénes <br> somos?</h3>
+        </div>
+        <div class="aboutus__block">
+            <p class="aboutus__block__text">La iniciativa “El Centro que nos une” nace de la necesidad de los <br> comerciantes del centro por crear e impulsar nuevos espacios <br> económicos y de mercado, basado en la creación de una cultura <br> con identidad e historia.</p>
+            <picture>
+                <source media="{min-width : 428px}" srcset="./resources/icons/startype_small.svg"/>
+                <img class="aboutus__simbol__inverse" src="./resources/icons/startype_big.svg" alt="Estrella navideña">
+            </picture>
+        </div>
     </div>
 
     <!-- About Alumbrado -->
-    <div>
-        <div></div>
-        <div></div>
+    <div class="lighting">
+        <div class="lighting__block">
+            <a href="#"><img class="lighting__block__logo" src="./resources/vectors/logo.svg" alt="Logo El Centro que nos Une"></a>
+            <p class="lighting__block__paragraph">La propuesta  Decoración Navideña en el centro que nos une, es una iniciativa liderada  por comerciantes y empresarios del centro, que vienen recuperando espacios  por medio de campañas pedagógicas y embellecimiento de algunos  sectores,  generando una reactivación económica en zonas como la carrera  8ta. 
+
+                Por esta razón, realizamos una decoración navideña en varias cuadras del sector  con luces de colores y  ornamentales inspirados en personajes del emblemático 
+                Cali Viejo.</p>   
+        </div>
+        <div class="lighting__image">
+            <picture>
+                <source media="{min-width : 428px}" srcset="./resources/images/caliviejo_small.png"/>
+                <img class="lighting__image__image" src="./resources/images/caliviejo_big.png" alt="Foto establecimiento cali viejo">
+            </picture>
+        </div>
     </div>
 
     <!-- Banner, check us -->
-    <div>
-
+    <div class="chekckus">
+        <h2 class="chekckus__tittle">Revisa toda nuestra programación y agéndate para este diciembre</h2>
+        <button class="Primary__button Primary__button--Hover">Échale un ojo</button>
     </div>
 
     <!-- Brands that support us -->
+    <div class="brand_T">
+        <h3 class="brand__tittle">Apoya</h3>
+    </div>
     <div class="brands">
-        <!-- <div><img src="./images/monticello.png" alt="Logo monticello"></div> -->
+        
+        <div><img src="./resources/brands/akarella.png" alt="Logo Akarella"></div>
+        <div><img src="./resources/brands/hoyostools.png" alt="Logo HoyosTools"></div>
+        <div><img src="./resources/brands/monza.png" alt="Logo Monza"></div>
+        <div><img src="./resources/brands/biurika.png" alt="Logo Biurika"></div>
+        <div><img src="./resources/brands/grantravel.png" alt="Logo Gran Travel Agencia"></div>
+        <div><img src="./resources/brands/kaprica.png" alt="Logo Kaprica"></div>
+        
     </div>
 
     <!-- Footer -->
-    <footer>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
+    <footer class="footer">
+        <div>
+            <picture>
+                <source media="{min-width : 428px}" srcset="./resources/vectors/footer_city_small.svg"/>
+                <img class="footer__city" src="./resources/vectors/footer_city_Big.svg" alt="Fondo de la ciudad de cali azul">
+            </picture>
+        </div>
+        <div>
+            <img class="footer__logo" src="./resources/vectors/brand_footer.svg" alt="Logo El Centro que nos Une es la luz blanco">
+        </div>
+        <div class="footer__text">
+            <ul class="footer_list">
+                <li><a href="#">¿Quiénes somos?</a></li>
+                <li><a href="#">Alumbrado</a></li>
+                <li><a href="#">Agenda</a></li>
+                <li><a href="#">Aliados</a></li>
+            </ul>
+        </div>
+
+        <div class="footer__text">
+                <h4>Contáctanos</h4>
+                <ul>
+                    <li class="list">Luz Dary Salazar A</li>
+                    <li class="list">+(57) 3137918357</li>
+                    <li class="list">nuestrocentrodecali@gmail.com</li>
+                </ul>
+        </div>
+
+        <div class="footer__social">
+            <a href="https://www.facebook.com/Nuestrocentrodecali/"><img class="socialMedia" src="./resources/icons/001-facebook.svg" alt="Logo facebook"></a>
+            <a href="https://www.instagram.com/nuestrocentrodecali/"><img class="socialMedia" src="./resources/icons/003-twitter.svg" alt="Logo Twitter"></a>
+            <a href="https://www.instagram.com/nuestrocentrodecali/"><img class="socialMedia" src="./resources/icons/004-instagram.svg" alt="Logo Instagram"></a>
+        </div>
+
+        <div class="footer__Credit">
+            <p>Todos los derechos reservados 2021 • Diseñado por: Oscar Eduardo Giraldo</p>
+        </div>
     </footer>
 </body>
 
