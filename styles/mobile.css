@@ -155,6 +155,7 @@
     -webkit-box-direction: reverse;
         -ms-flex-direction: column-reverse;
             flex-direction: column-reverse;
+    width: 100%;
   }
   .lighting__block {
     display: -webkit-box;
