@@ -156,6 +156,7 @@
         -ms-flex-direction: column-reverse;
             flex-direction: column-reverse;
     width: 100%;
+    z-index: 30;
   }
   .lighting__block {
     display: -webkit-box;
@@ -173,6 +174,9 @@
     margin-bottom: 3rem;
   }
   .lighting__image {
+    width: 100%;
+  }
+  .lighting__image__image {
     width: 100%;
   }
   .chekckus {
