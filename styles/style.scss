@@ -1,0 +1,144 @@
+
+/* colors */
+$primary-color: #43bcf1;
+$primary-color-light: #f9288d;
+$primary-color-dark: #561f83;
+$seconday-color: #e3bf23;
+$seconday-color-dark: #1961d7;
+$seconday-color-light: #ff412b;
+$status-color-success: #28a745;
+$status-color-wrong: #dc3545;
+$status-color-warning: #ffc107;
+$status-color-info: #17a2b8;
+$black: #000000;
+$white: #ffffff;
+$body-text-color: #451c66;
+$gray-100: #f8f9fa;
+$gray-200: #e9ecef;
+$gray-300: #dee2e6;
+$gray-400: #ced4da;
+$gray-500: #ced4da;
+$gray-600: #6c757d;
+$gray-700: #495057;
+$gray-800: #343a40;
+$gray-900: #212529;
+
+/* fonts */
+$primary-font: Dela Gothic One;
+$secondary-font: Acme;
+$karla-300: Karla;
+
+/* text styles*/
+@mixin header-1() {
+  fontFamily : $primary-font;
+  fontSize : 40px;
+  lineHeight: 48px;
+  letterSpacing : 0em;
+}
+@mixin header-2() {
+  fontFamily : $primary-font;
+  fontSize : 32px;
+  lineHeight: 39px;
+  letterSpacing : 0em;
+}
+@mixin header-3() {
+  fontFamily : $primary-font;
+  fontSize : 28px;
+  lineHeight: 35px;
+  letterSpacing : 0em;
+}
+@mixin header-4() {
+  fontFamily : $primary-font;
+  fontSize : 24px;
+  lineHeight: 30px;
+  letterSpacing : 0em;
+}
+@mixin header-5() {
+  fontFamily : $primary-font;
+  fontSize : 20px;
+  lineHeight: 26px;
+  letterSpacing : 0em;
+}
+@mixin header-6() {
+  fontFamily : $primary-font;
+  fontSize : 16px;
+  lineHeight: 22px;
+  letterSpacing : 0em;
+}
+@mixin bold-header-1() {
+  fontFamily : $secondary-font;
+  fontSize : 40px;
+  lineHeight: 48px;
+  letterSpacing : 0em;
+}
+@mixin bold-header-2() {
+  fontFamily : $secondary-font;
+  fontSize : 32px;
+  lineHeight: 39px;
+  letterSpacing : 0em;
+}
+@mixin bold-header-3() {
+  fontFamily : $secondary-font;
+  fontSize : 28px;
+  lineHeight: 35px;
+  letterSpacing : 0em;
+}
+@mixin bold-header-4() {
+  fontFamily : $secondary-font;
+  fontSize : 24px;
+  lineHeight: 30px;
+  letterSpacing : 0em;
+}
+@mixin bold-header-5() {
+  fontFamily : $secondary-font;
+  fontSize : 20px;
+  lineHeight: 26px;
+  letterSpacing : 0em;
+}
+@mixin bold-header-6() {
+  fontFamily : $secondary-font;
+  fontSize : 16px;
+  lineHeight: 22px;
+  letterSpacing : 0em;
+}
+@mixin display-heading-1() {
+  fontFamily : $primary-font;
+  fontSize : 72px;
+  lineHeight: 83px;
+  letterSpacing : 0em;
+}
+@mixin display-heading-2() {
+  fontFamily : $primary-font;
+  fontSize : 64px;
+  lineHeight: 74px;
+  letterSpacing : -0.02em;
+}
+@mixin display-heading-3() {
+  fontFamily : $primary-font;
+  fontSize : 58px;
+  lineHeight: 68px;
+  letterSpacing : 0em;
+}
+@mixin display-heading-4() {
+  fontFamily : $primary-font;
+  fontSize : 52px;
+  lineHeight: 61px;
+  letterSpacing : 0em;
+}
+@mixin body-text() {
+  fontFamily : $karla-300;
+  fontSize : 20px;
+  lineHeight: 28px;
+  letterSpacing : 0em;
+}
+
+/* SpacePatterns */
+$none: 0px;
+$xx-small: 2px;
+$x-small: 4px;
+$small: 8px;
+$regular: 16px;
+$large: 32px;
+$x-large: 64px;
+$xx-large: 128px;
+
