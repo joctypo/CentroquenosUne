@@ -1,3 +1,8 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 
 /* colors */
 $primary-color: #43bcf1;
@@ -30,106 +35,106 @@ $karla-300: Karla;
 
 /* text styles*/
 @mixin header-1() {
-  fontFamily : $primary-font;
-  fontSize : 40px;
-  lineHeight: 48px;
-  letterSpacing : 0em;
+  font-family : $primary-font;
+  font-Size : 40px;
+  line-height: 48px;
+  letter-spacing : 0em;
 }
 @mixin header-2() {
-  fontFamily : $primary-font;
-  fontSize : 32px;
-  lineHeight: 39px;
-  letterSpacing : 0em;
+  font-family : $primary-font;
+  font-size : 32px;
+  line-height: 39px;
+  letter-spacing : 0em;
 }
 @mixin header-3() {
-  fontFamily : $primary-font;
-  fontSize : 28px;
-  lineHeight: 35px;
-  letterSpacing : 0em;
+  font-family : $primary-font;
+  font-size : 28px;
+  line-height: 35px;
+  letter-spacing : 0em;
 }
 @mixin header-4() {
-  fontFamily : $primary-font;
-  fontSize : 24px;
-  lineHeight: 30px;
-  letterSpacing : 0em;
+  font-family : $primary-font;
+  font-size : 24px;
+  line-height: 30px;
+  letter-spacing : 0em;
 }
 @mixin header-5() {
-  fontFamily : $primary-font;
-  fontSize : 20px;
-  lineHeight: 26px;
-  letterSpacing : 0em;
+  font-family : $primary-font;
+  font-size : 20px;
+  line-height: 26px;
+  letter-spacing : 0em;
 }
 @mixin header-6() {
-  fontFamily : $primary-font;
-  fontSize : 16px;
-  lineHeight: 22px;
-  letterSpacing : 0em;
+  font-family : $primary-font;
+  font-size : 16px;
+  line-height: 22px;
+  letter-spacing : 0em;
 }
 @mixin bold-header-1() {
-  fontFamily : $secondary-font;
-  fontSize : 40px;
-  lineHeight: 48px;
-  letterSpacing : 0em;
+  font-family : $secondary-font;
+  font-size : 40px;
+  line-height: 48px;
+  letter-spacing : 0em;
 }
 @mixin bold-header-2() {
-  fontFamily : $secondary-font;
-  fontSize : 32px;
-  lineHeight: 39px;
-  letterSpacing : 0em;
+  font-family : $secondary-font;
+  font-size : 32px;
+  line-height: 39px;
+  letter-spacing : 0em;
 }
 @mixin bold-header-3() {
-  fontFamily : $secondary-font;
-  fontSize : 28px;
-  lineHeight: 35px;
-  letterSpacing : 0em;
+  font-family : $secondary-font;
+  font-size : 28px;
+  line-height: 35px;
+  letter-spacing : 0em;
 }
 @mixin bold-header-4() {
-  fontFamily : $secondary-font;
-  fontSize : 24px;
-  lineHeight: 30px;
-  letterSpacing : 0em;
+  font-family : $secondary-font;
+  font-size : 24px;
+  line-height: 30px;
+  letter-spacing : 0em;
 }
 @mixin bold-header-5() {
-  fontFamily : $secondary-font;
-  fontSize : 20px;
-  lineHeight: 26px;
-  letterSpacing : 0em;
+  font-family : $secondary-font;
+  font-size : 20px;
+  line-height: 26px;
+  letter-spacing : 0em;
 }
 @mixin bold-header-6() {
-  fontFamily : $secondary-font;
-  fontSize : 16px;
-  lineHeight: 22px;
-  letterSpacing : 0em;
+  font-family : $secondary-font;
+  font-size : 16px;
+  line-height: 22px;
+  letter-spacing : 0em;
 }
 @mixin display-heading-1() {
-  fontFamily : $primary-font;
-  fontSize : 72px;
-  lineHeight: 83px;
-  letterSpacing : 0em;
+  font-family : $primary-font;
+  font-size : 72px;
+  line-height: 83px;
+  letter-spacing : 0em;
 }
 @mixin display-heading-2() {
-  fontFamily : $primary-font;
-  fontSize : 64px;
-  lineHeight: 74px;
-  letterSpacing : -0.02em;
+  font-family : $primary-font;
+  font-size : 64px;
+  line-height: 74px;
+  letter-spacing : -0.02em;
 }
 @mixin display-heading-3() {
-  fontFamily : $primary-font;
-  fontSize : 58px;
-  lineHeight: 68px;
-  letterSpacing : 0em;
+  font-family : $primary-font;
+  font-size : 58px;
+  line-height: 68px;
+  letter-spacing : 0em;
 }
 @mixin display-heading-4() {
-  fontFamily : $primary-font;
-  fontSize : 52px;
-  lineHeight: 61px;
-  letterSpacing : 0em;
+  font-family : $primary-font;
+  font-size : 52px;
+  line-height: 61px;
+  letter-spacing : 0em;
 }
 @mixin body-text() {
-  fontFamily : $karla-300;
-  fontSize : 20px;
-  lineHeight: 28px;
-  letterSpacing : 0em;
+  font-family : $karla-300;
+  font-size : 20px;
+  line-height: 28px;
+  letter-spacing : 0em;
 }
 
 /* SpacePatterns */
@@ -141,4 +146,321 @@ $regular: 16px;
 $large: 32px;
 $x-large: 64px;
 $xx-large: 128px;
+
+h3{
+  font-weight: 300;
+}
+
+h2{
+  font-weight: 300;
+}
+
+h1{
+  font-weight: 300;
+}
+
+h4{
+  font-weight: 300;
+}
+.nav_mobile{
+  display: none;
+}
+.nav{
+    @include body-text();
+    font-size: 1.3rem;
+    width: 100%;
+    z-index: 30;
+    display: flex;
+    justify-content: space-between;
+    background-color: $primary-color-dark;
+
+    a{
+        text-decoration: none;
+        color: $white;
+        z-index: 20;
+    }
+    a:hover {
+        color: $primary-color-dark;
+    }
+
+    li{
+        display: inline-block;
+        padding: 1rem;
+    }
+
+    &_logo{
+        width: auto;
+        margin-left: 10rem;
+        margin-top: 0.5rem;
+        margin-right: 2rem;
+        width: 242px;
+        height: 86.8px;
+        z-index: 20;
+    }
+
+    &_list{
+        width: 70%;
+        background: $primary-color-light;
+        border-radius: 0px 0px 0px 29px;
+        list-style: none;
+        padding:1rem;
+        text-align: end;
+        z-index: 30;
+    }
+
+}
+
+ .banner{
+    overflow: hidden;
+    background-color: $primary-color-dark;
+    width: 100%;
+    height: 100vh;
+
+    &__waves{
+        position: absolute;
+        margin-top: -5rem;
+        z-index: 5;
+        width: 100%;
+    }
+
+    &__silloute{
+        position: absolute;
+        margin-top: -2rem;
+        z-index: 7;
+        width: 100%;
+    }
+
+    &__city{
+        position: absolute;
+        z-index: 8;
+        margin-top: 15rem;
+        width: 100%;
+    }
+
+    &__naming{
+        position: absolute;
+        z-index: 9;
+        margin-top: 22rem;
+        width: 100%;
+    }
+
+    &__star{
+        position: absolute;
+        z-index: 10;
+        margin-top: 1.5rem;
+        justify-content: center;
+        width: 100%;
+    }
+
+    &__tittle{
+        color: $white;
+        position: absolute;
+        width: 50%;
+        justify-content: center;
+        text-align: center;
+        z-index: 25;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 55rem;
+        &__principal{
+          @include header-3();
+          width: 50%;
+        }
+
+        &__copy{
+          @include body-text();
+          font-size: 16px;
+          line-height: 18.5px;
+          width: 50%;
+        }
+        
+    }
+    &__cloud{
+        position: absolute;
+        margin-top: 55rem;
+        z-index: 16;
+        width: 100%;
+    }
+  
+ }
+
+.aboutus{
+  margin-top:25rem;
+  width: 100%;
+  display: flex;
+  background-color: $white;
+  z-index: 30;
+    &__simbol{
+      z-index: 30;
+      width: 50%;
+      &__inverse{
+        padding: 5rem;
+        margin-right: 10rem
+      }
+
+      &__tittle{
+        @include display-heading-3();
+        color: $white;
+        position: absolute;
+        text-align: center;
+        z-index: 31;
+        margin-top: -21rem;
+        margin-left: 10rem;
+      }
+
+    }
+
+    &__block{
+      width: 50%;
+      z-index: 30;
+      padding: 5rem 0;
+      display: flex;
+      align-items: center;
+      &__text{
+        @include body-text();
+
+        color: $body-text-color;
+      }
+
+      &__star{
+        position: absolute;
+        margin-right: -8rem;
+        padding: 0%;
+
+      }
+    }
+} 
+
+.lighting{
+  display: flex;
+  width: 100%;
+  background-color:#2E0152;
+  align-items: center;
+  &__block{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-right: 4rem;
+    &__logo{
+      margin-bottom: 2rem;
+
+    }
+
+    &__paragraph{
+      @include body-text();
+      color:$white;
+      text-align:  right;
+      margin-left: 25%;
+    }
+  }
+
+  &__image{
+    width: 50%;
+  }
+
+}
+
+.chekckus{
+  background-color: $primary-color-light;
+  width: 100%;
+  padding: 0% 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  &__tittle{
+    @include header-2();
+    color: $white;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+}
+
+
+.Primary__button{
+  background-color: $primary-color;
+  border: 4px;
+  border-color: $primary-color;
+  @include header-6();
+  color: $white;
+  padding: 16px;
+}
+
+.brand_T{
+  @include header-3();
+  color: $primary-color;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+.brands{
+  width: 1024px;
+  display: flex;
+  justify-content: center;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  flex-wrap: wrap;
+  margin: 50px auto;
+}
+
+.footer{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  &__city{
+    width: 100%;
+    position: absolute;
+    z-index: 2;
+  }
+
+  &__logo{
+
+    z-index: 5;
+    display: flex;
+    justify-content: center;
+    margin-top: 15rem;
+  }
+
+  &__text{
+
+    li{
+      color: $white;
+      list-style: none;
+
+    }
+
+    a{
+      color: $white;
+      text-decoration: none;
+    }
+    @include bold-header-3();
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 5;
+    color: $white;
+    text-align: center;
+
+
+  }
+
+  &__social{
+    z-index: 5;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+
+    a{
+      padding: 1rem;
+    }
+  }
+
+}
 

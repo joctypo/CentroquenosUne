@@ -11,6 +11,7 @@
     <meta name="robots" content="index,follow">
     <link rel="shortcut icon" href="./resources/icons/staricon.svg">
     <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/mobile.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Acme&family=Dela+Gothic+One&family=Karla:wght@300;400;500;700&display=swap" rel="stylesheet">
@@ -28,10 +29,31 @@
                 <li><a href="#">Aliados</a></li>
             </ul>
         </nav>
+
+
+        <nav class="nav_mobile">
+            <a href="#"><img class="nav_logo" src="./resources/vectors/logo.svg" alt="Logo El Centro que nos Une"></a>
+            
+            <div class="nav_mobile_control">
+                <input type="checkbox" id="menu" >
+                <label for="menu"> ☰ </label>
+                <ul class="nav_mobile__list">
+                <li><a href="#">¿Quiénes somos?</a></li>
+                <li><a href="#">Alumbrado</a></li>
+                <li><a href="#">Agenda</a></li>
+                <li><a href="#">Aliados</a></li>
+            </ul>
+
+            </div>
+            
+        </nav>
     </header>
+
+
 
     <!-- Banner static of poster -->
     <div class="banner">
+
         <picture>
             <source media="(max-width : 428px)" srcset="./resources/vectors/waves_small.svg"/>
             <img class="banner__waves" src="./resources/vectors/waves.svg" alt="Fondo de ondas">
@@ -69,13 +91,13 @@
                 <source media="(max-width : 428px)" srcset="./resources/vectors/cloudinverse_small.svg"/>
                 <img class="aboutus__simbol__inverse" src="./resources/vectors/cloudinverse_big.svg" alt="Nube fucsia del Centro de Cali">
             </picture>
-            <h3 class="aboutus__simbol__tittle">¿Quiénes <br> somos?</h3>
+            <h3 class="aboutus__simbol__tittle">¿QUIÉNES <br> SOMOS?</h3>
         </div>
         <div class="aboutus__block">
             <p class="aboutus__block__text">La iniciativa “El Centro que nos une” nace de la necesidad de los <br> comerciantes del centro por crear e impulsar nuevos espacios <br> económicos y de mercado, basado en la creación de una cultura <br> con identidad e historia.</p>
             <picture>
                 <source media="(max-width : 428px)" srcset="./resources/icons/startype_small.svg"/>
-                <img class="aboutus__simbol__inverse" src="./resources/icons/startype_big.svg" alt="Estrella navideña">
+                <img class="aboutus__block__star" src="./resources/icons/startype_big.svg" alt="Estrella navideña">
             </picture>
         </div>
     </div>
@@ -85,7 +107,8 @@
         <div class="lighting__block">
             <a href="#"><img class="lighting__block__logo" src="./resources/vectors/logo.svg" alt="Logo El Centro que nos Une"></a>
             <p class="lighting__block__paragraph">La propuesta  Decoración Navideña en el centro que nos une, es una iniciativa liderada  por comerciantes y empresarios del centro, que vienen recuperando espacios  por medio de campañas pedagógicas y embellecimiento de algunos  sectores,  generando una reactivación económica en zonas como la carrera  8ta. 
-
+                <br>
+                <br>
                 Por esta razón, realizamos una decoración navideña en varias cuadras del sector  con luces de colores y  ornamentales inspirados en personajes del emblemático 
                 Cali Viejo.</p>   
         </div>
@@ -99,13 +122,13 @@
 
     <!-- Banner, check us -->
     <div class="chekckus">
-        <h2 class="chekckus__tittle">Revisa toda nuestra programación y agéndate para este diciembre</h2>
-        <button class="Primary__button Primary__button--Hover">Échale un ojo</button>
+        <h2 class="chekckus__tittle">REVISA TODA NUESTRA PROGRAMACIÓN Y AGÉNDATE PARA ESTE DICIEMBRE</h2>
+        <button class="chekckus__tittle Primary__button Primary__button--Hover">ÉCHALE UN OJO</button>
     </div>
 
     <!-- Brands that support us -->
     <div class="brand_T">
-        <h3 class="brand__tittle">Apoya</h3>
+        <h3 class="brand__tittle">APOYA</h3>
     </div>
     <div class="brands">
         
@@ -126,8 +149,8 @@
                 <img class="footer__city" src="./resources/vectors/footer_city_Big.svg" alt="Fondo de la ciudad de cali azul">
             </picture>
         </div>
-        <div>
-            <img class="footer__logo" src="./resources/vectors/brand_footer.svg" alt="Logo El Centro que nos Une es la luz blanco">
+        <div class="footer__logo">
+            <img class="footer__logo__simbol" src="./resources/vectors/brand_footer.svg" alt="Logo El Centro que nos Une es la luz blanco">
         </div>
         <div class="footer__text">
             <ul class="footer_list">
@@ -138,7 +161,7 @@
             </ul>
         </div>
 
-        <div class="footer__text">
+        <div class="footer__text footer__text__another">
                 <h4>Contáctanos</h4>
                 <ul>
                     <li class="list">Luz Dary Salazar A</li>
@@ -153,9 +176,7 @@
             <a href="https://www.instagram.com/nuestrocentrodecali/"><img class="socialMedia" src="./resources/icons/004-instagram.svg" alt="Logo Instagram"></a>
         </div>
 
-        <div class="footer__Credit">
-            <p>Todos los derechos reservados 2021 • Diseñado por: Oscar Eduardo Giraldo</p>
-        </div>
+       
     </footer>
 </body>
 
